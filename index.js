@@ -207,6 +207,8 @@ const artists = [
 Practice accessing data above by console.log-ing following items:
 (no functions needed) */
 
+// 
+
 //(1) Name of the first artist (0th index) in the array
 
 
