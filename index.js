@@ -245,18 +245,47 @@ Example born in 1901 and died in 1959 - included -- born in 1889 and died in 192
 If correct, the function should return ["Salvador Dali", "Frida Kahlo"]*/
 // Hint - Look up the .split() method
 
-function get20s(array) {
-}
-//   const twentiethCentury = [];
-//   for (let i = 0; i < array.length; i++)
-//     if (math.floor((array[i].years.split(" - ")/100)*100 === 1900)){
-//       twentiethCentury.push(array[i].name)
-//     }
-//     return twentiethCentury;
-//     // if (array[i].years.split(" - ") => 1900 && array[i].years.split(" - ") <= 2000)
+function get20s(array) {}
+  // const newArray = [];  
+  // for (let i = 0; i < array.length; i++)
+  //   const array = str.split(" ")
+  //   if ((array[i]["years"]).split("").length > 1){
+  //     newArray.push(array[i].name);
+  //   }
+  //   return newArray;
+  
+  // console.log('task4,', get20s(artists))
+//   return {array[years] array[name]}
 // }
-// console.log(get20s(artists))
+//   console.log('test4', get20s(artists))
 
+// console.log
+
+// const ageVar = new Map (array)
+
+// let obj1 = artists[];
+// let op = obj1.map(({id, name, years, genre, nationality, bio, wikipedia, paintings})
+
+  // const twentiethCentury = [];
+  // const splitter = /\s*-\s*/;
+  // for (let i = 0; i < array.length; i++)
+  //   if (Math.floor((array[i]['years'].split(splitter)/100)*100 === 1900)){
+  //     twentiethCentury.push(array[i].name);
+  //   }
+  //   return twentiethCentury;
+    // if (array[i].years.split(" - ") => 1900 && array[i].years.split(" - ") <= 2000)
+    // const twentiethCentury = [];
+    // for (let i = 0; i < array.length; i++)
+    //   if (Math.floor((array[i].years.split(" - ")/100)*100 === 1900)){
+    //     twentiethCentury.push(array[i].name)
+    //   }
+    //   return twentiethCentury;
+
+    //  return array['years']['split'](" - ");
+  
+// console.log('test4', get20s(artists))
+
+// console.log('test', Math.floor((artists[1].years.split(" - "))))
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
@@ -295,7 +324,7 @@ function addArtist(array, id, name, years, genre, nationality, bio) {
   return array;
 }
 
-console.log('task6', addArtist(artists, 20, 'Matt Stack', '1987-2021', 'web design', 'Irish', 'Mauris augue neque gravida in fermentum et sollicitudin ac orci. Odio pellentesque diam volutpat commodo.'))
+// console.log('task6', addArtist(artists, 20, 'Matt Stack', '1987-2021', 'web design', 'Irish', 'Mauris augue neque gravida in fermentum et sollicitudin ac orci. Odio pellentesque diam volutpat commodo.'))
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Use lotsOfArt to do the following: 
