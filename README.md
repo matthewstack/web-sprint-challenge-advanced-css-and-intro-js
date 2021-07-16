@@ -39,7 +39,7 @@ Please answer the following questions below, you may edit the readme file to inc
 
 5. How do you access a key inside of an object inside of an array?
 
-        Using bracket or dot notation with an index number.  It would look like array[i].key or array[i]['key']
+        Using bracket or dot notation. This would look like object.key or object['key']  You can use an index number to access a specific key -- object[1].key.
 
 
 
